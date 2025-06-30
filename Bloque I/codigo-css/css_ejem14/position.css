@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    background: steelblue;
+    width: 100px;
+}
+
+.item {
+    background: grey;
+    min-height: 20px;
+    min-width: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.item:nth-child(1) { min-height: 30px; }
+
+.item:nth-child(3) { min-height: 25px; }
+
+.item:nth-child(5) { min-height: 40px; height: 40px;}

@@ -1,0 +1,16 @@
+.grid {
+   display: grid;
+   grid-template-areas: "head head"
+                        "menu main"
+                        "foot foot";
+   column-gap: 100px;
+   row-gap: 10px;                   
+}
+
+.a { grid-area: head; background: blue }
+
+.b { grid-area: menu; background: red }
+
+.c { grid-area: main; background: green }
+
+.d { grid-area: foot; background: orange }

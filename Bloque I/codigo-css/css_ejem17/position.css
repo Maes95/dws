@@ -1,0 +1,29 @@
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header {
+   background: darkred;
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+
+.sidebar {
+   background: black;
+   grid-row: 2 / 3;
+   color: white;
+}
+
+.content {
+   background: orange;
+   grid-column: 2 / 4;
+   grid-row: 2 / 3;
+}
+
+.footer {
+   background: green;
+   grid-column: 1 / 4;
+   grid-row: 3;
+}

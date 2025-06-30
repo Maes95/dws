@@ -1,0 +1,15 @@
+.grid {
+   display: grid;
+   grid-template-columns: 100px repeat(2, 50px) 200px;
+   grid-template-rows: repeat(2, 50px 100px);
+}
+
+.item{ color: white;}
+
+.a { background: blue }
+
+.b { background: red }
+
+.c { background: green }
+
+.d { background: orange }
